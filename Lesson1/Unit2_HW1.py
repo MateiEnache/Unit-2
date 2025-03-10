@@ -27,6 +27,18 @@ class Restaurant:
         """
         print(f"{self.restaurant_name} is open.")
 
+    def set_num_served(self,num_served:int):
+        """Sets the number of costumers served
+
+        Args:
+            num_served (int): how many people served
+        """
+        self.set_num_served = num_served
+    
+    def increment_served(self):
+        print("hja")
+
+
 which_restaurant = Restaurant("Pizza Place", "Italian")
 print(which_restaurant.restaurant_name)
 print(which_restaurant.restaurant_cuisine)
