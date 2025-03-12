@@ -55,8 +55,8 @@ class Porsche:
         """Displayes the info about Bob's car in a readable format
         """
         print(f"""Bob's Porsche {self.model} is {self.color}, with {self.horsepower} horsepower.
-              It has a top speed of {self.top_speed} km/h.
-              It's fuel level is at {self.fuel_level}% and has a mileage of {self.mileage}.""")
+It has a top speed of {self.top_speed} km/h.
+It's fuel level is at {self.fuel_level}% and has a mileage of {self.mileage}.""")
 
 def main() -> None:
     """Creates instances of the Porsche GT3 RS class and demonstrates its methods."""
@@ -64,10 +64,16 @@ def main() -> None:
     porsche2 = Porsche("718 Spyder", "Ruby Star Neo", 493, 308, 75, 1200)
 
     porsche1.drive(60)
+    print("")
     porsche1.refuel(20)
+    print("")
     porsche1.display_specs()
+    print("")
+    print("")
     porsche2.drive(200)
+    print("")
     porsche2.refuel(10)
+    print("")
     porsche2.display_specs()
 
 if __name__ == "__main__":
