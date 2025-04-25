@@ -25,9 +25,9 @@ def main():
     D6 = Die(6)
     D10 = Die(10)
     D20 = Die(20)
-    """for i in range(10):
+    for i in range(10):
         D6.roll_die()
         D10.roll_die()
-        D20.roll_die()"""
+        D20.roll_die()
 
 main()
